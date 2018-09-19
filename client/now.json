@@ -1,0 +1,15 @@
+{
+  "name": "vue-share",
+  "type": "static",
+  "static": {
+    "public": "dist",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "alias": "vue-share-zhangjialu",
+  "files": ["dist"]
+}
